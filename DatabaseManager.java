@@ -3,8 +3,8 @@ import java.sql.DriverManager;
 
 public class DatabaseManager {
 	private static String className = "org.mariadb.jdbc.Driver";
-	private static String url = "jdbc:mariadb://127.0.0.1:3306/MyDB";	//	ÇÊ¿ä¿¡ µû¶ó MyDB ºÎºĞ ¼öÁ¤
-	private static String ID = "root";	//	MariaDB ID Insert
+	private static String url = "jdbc:mariadb://127.0.0.1:3306/MyDB";	//	Ã‡ÃŠÂ¿Ã¤Â¿Â¡ ÂµÃ»Â¶Ã³ MyDB ÂºÃÂºÃ Â¼Ã¶ÃÂ¤
+	private static String ID = "id";	//	MariaDB ID Insert
 	private static String PW = "pwd";	//	MariaDB PWD Insert 
 	
 	static {
